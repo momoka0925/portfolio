@@ -36,14 +36,21 @@ JWT認証とリレーショナルDB設計がテーマの支出管理アプリ。
 - **技術**: FastAPI, SQLAlchemy 2.0, Alembic, PyJWT, bcrypt, PostgreSQL, Next.js, TypeScript, Docker
 - 🔗 [Demo](https://portfolio-03-expense-tracker.vercel.app/) ・ [API Docs](https://portfolio-03-expense-tracker-api.onrender.com/docs) ・ [Repository](https://github.com/momoka0925/portfolio-03-expense-tracker)
 
+### 04. Image Management System
+画像アップロード・サムネイル自動生成・重複検知。ファイル処理とバックグラウンド処理がテーマ。
+
+- **テーマ**: ファイルアップロード / 画像処理(Pillow) / バックグラウンド処理 / ストレージ抽象化 / SHA-256重複検知
+- **技術**: FastAPI, Pillow, BackgroundTasks, SQLAlchemy, Next.js, TypeScript, Docker
+- 🔗 [Demo](https://portfolio-04-image-manager.vercel.app/) ・ [API Docs](https://portfolio-04-image-manager-api.onrender.com/docs) ・ [Repository](https://github.com/momoka0925/portfolio-04-image-manager)
+
 ---
 
 ## 🚧 今後の予定
 
 | # | プロジェクト | 主な学習テーマ |
 |---|---|---|
-| 04 | URL Shortener | リダイレクト / UUID / Analytics |
-| 05 | Inventory Management | リレーション / 在庫管理 / SQL |
+| 05 | AI / LLM 活用 | LLM API / RAG / ベクトル検索 |
+| — | Inventory Management | リレーション / 在庫管理 / SQL |
 | 06 | AI Chat Client | LLM API / Streaming / Prompt |
 | 07 | PDF Summarizer | PDF解析 / AI要約 |
 | 08 | Web Scraper Dashboard | スクレイピング / データ可視化 |
